@@ -4,18 +4,17 @@
         <div class="container p-4">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-                <!-- <img alt="Vue logo" src=""> -->
-              <a class="nav-link" href="index.html"><img src="../assets/logo.png" alt="logo_universidad"></a>
+              <router-link class="nav-link" to="/"><img src="../assets/logo.png" alt="logo_universidad"></router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light links" aria-current="index.html" href="index.html">Inicio</a>
+              <router-link class="nav-link link-light links" aria-current="index.html" to="/">Inicio</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light links" aria-current="#" href="check.html" >Seguimiento del Entrenamiento</a>
+              <router-link class="nav-link link-light links" aria-current="#" to="/traning-results" >Seguimiento del Entrenamiento</router-link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link-light links" aria-current="#" href="https://baip.uaz.edu.mx/">Equipo de trabajo</a>
-            </li>
+            <!-- <li class="nav-item">
+              <router-link class="nav-link link-light links" aria-current="#" to="https://baip.uaz.edu.mx/">Equipo de trabajo</router-link>
+            </li> -->
           </ul>
         </div>
       </div>
