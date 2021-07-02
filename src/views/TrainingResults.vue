@@ -2,9 +2,9 @@
    <div class="container">
         <div class="row">
         <div class="col-sm-12 col-sm-offset-1 bg-light m-5 p-5">
-            <h2 class="text-center p-3 mb-3"> Consultar el estado de sus solicitud</h2>
+            <h2 class="text-center p-3 mb-3"> Consultar el estado de su solicitud</h2>
             <div class="form-group">
-            <label class="fs-3">Correo Electrónico <small>(Requerido)</small></label>
+            <label class="fs-3">Correo Electrónico * <small>(Requerido)</small></label>
             <input name="correo" type="text" class="form-control" id="myInput" placeholder="buscar">
         </div>
             <table class="table align-middle">
@@ -13,7 +13,7 @@
                     <th scope="col">ID</th>
                     <th scope="col">Entrenamientos</th>
                     <th scope="col">Estado</th>
-                    <th scope="col">Acutalización</th>
+                    <th scope="col">Actualización</th>
                     <th scope="col">Consulta </th>
                 </tr>
                 </thead>
