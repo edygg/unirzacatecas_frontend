@@ -5,7 +5,7 @@
       <div
         class="col-sm-8 col-sm-offset-2 pt-5 mt-5 pb-5 mb-5 wizard-container"
       >
-        <form-wizard>
+        <form-wizard  color="#2C55A4" back-button-text="Regresar" next-button-text="Siguiente" finish-button-text="Finalizar">
           <h2 slot="title">Plataforma de Aprendizaje automático</h2>
 
           <tab-content title="Términos y condiciones">
@@ -361,6 +361,7 @@ export default {
   background: white;
   border-radius: 10px;
 }
+
 
 
 </style>
